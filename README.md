@@ -120,3 +120,9 @@ if(typeof(LDAvis) !== "undefined"){
          });
 }
 </script>
+
+##### Figure VI
+<img src="Graphs/wordcloud_prior.png" alt="hi" class="inline"/>
+##### Figure VII
+
+<img src="Graphs/wordcloud_after.png" alt="hi" class="inline"/>
