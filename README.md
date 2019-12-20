@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/chandaws96/data_vis_final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The 2016 presidential election is one of the most contentious elections in American history. A political outsider, despite losing the popular vote, manage to overcome his establishment counterpart. This victory brought success across the board for the GOP party, with a large majority in both the House and the Senate. It also allowed them the ability to secure two supreme court nominations. With this success, Trump has now become the symbol of the party, meaning that the public's perception of him directly reflects the public's perception of the Republican party.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chandaws96/data_vis_final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
