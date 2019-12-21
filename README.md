@@ -133,9 +133,17 @@ if(typeof(LDAvis) !== "undefined"){
          });
 }
 </script>
+#### Word Clouds
 
 ##### Figure VI
+##### Before the Election
 <img src="Graphs/wordcloud_prior.png" alt="hi" class="inline"/>
 ##### Figure VII
-
+##### After the Election
 <img src="Graphs/wordcloud_after.png" alt="hi" class="inline"/>
+
+
+### Take Away
+
+When comparing to two topics there 
+
