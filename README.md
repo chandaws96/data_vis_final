@@ -151,5 +151,12 @@ When comparing to two topics there are clear similarities and differences. In Fi
 In conclusion, this analysis of Trumps discourse, show clear patterns that Trump used when campaigning for the 2018 election. The topics that were chosen seemed to target important issue areas for the GOP base, and he seemed to put a lot more effort in disparaging the democrats. However, after the election ,the patterns change to focus on more agenda items, like trade deals and policy changes, but at the same time loses some structure that was seen in the time before the election. These changes also likely reflect Trump attempting to adapt to his loss in the 2018 election and see if a different topic approach may work better for the 2020 elections.
 
 
+#### Sources:
+
+Guide on how to do LDA was followed and some code was used from here : https://www.machinelearningplus.com/nlp/topic-modeling-python-sklearn-examples/
+
+Data Source on Trump Transcripts: https://factba.se/transcripts/speeches
+
+Data Source on election results: https://docs.google.com/spreadsheets/d/1GNRnHy677PD8Je6Rp3evaJ5ty5MbCIDIAkSJVJ3ax2c/edit?usp=sharing
 
 
