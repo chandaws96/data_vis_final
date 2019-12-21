@@ -38,6 +38,7 @@ The results of both LDA models, for before and after the election are displayed 
 
 #### Before the Elections
 
+The results for the LDA model before the election are in in Figure IV. Topic 1, which is 16% of the speech chunks, primarily related to how good the economy is doing, relating to trade, unemployment, and how the administration helped do that. Topic 2, 14%, is Trump's primary appeal to voters, doing comparisons between Republicans and Democrats in broad terms. Topic 3, 13%, which is a bit choatic, deals with foreign policy and military might. Topic 4, 11%, shows trump talking about his supreme court nominee and what it means to his voters. Topic 5, 9%, is Trump talking up about how great law enforcement is, particularly ICE. Topic 6, 8.6%, deals with Trump mentioning how great the local representative is and to vote for them. Topic 8, 7%, is trump talking about building a wall and how bad fake new is. Topic 9, 7%, is a very clear topic of Trump attacking Democrats for various things, such as immigration, healtcare, and criminal activity. Topic 7 and 10 are too noisy in the way the terms are weighted to really draw any conclusions.
 
 ##### Figure IV 
 ##### Prior to the Midterm Election
@@ -86,9 +87,7 @@ if(typeof(LDAvis) !== "undefined"){
 #### After the Elections
 
 
-In figure IV, the topics that Trump used in the month leading up to the 2018 mid term election can be seen. The first topic which makes up 15.2% of the speech chunks is over trade, as the term deal, border, mexico, and nafta are all relatively important. The third topic, which is 11% of the speeches, talks about american workers, particularly farmers, and makes draws to american patriotism. Topic 5, which is 10% of the speech chunks, is Trump bragging about the unemployment rate and how well the job market is doing. Topic 6, 10% as well,  is a little more choatic, but he is primarily talking about making China pay for the tariffs in his trade deal. Topic 7, which is 9% of the speeches, is primarily refering to his big campaign talking points, which are building a wall, make America great again, and promiting steel workers. Topic 9, 7% of the speeches, is refers mainly to various items in healthcare, like opoid abuse and drug innovation. Topic 10, 6% of the speech, is an appeal to family life, and also his attack on abortion.
-
-Topics 2, 
+In figure IV, the topics that Trump used in the month after up to the 2018 mid term election can be seen. The first topic which makes up 15.2% of the speech chunks is over trade, as the term deal, border, mexico, and nafta are all relatively important. The third topic, which is 11% of the speeches, talks about american workers, particularly farmers, and makes draws to american patriotism. Topic 5, which is 10% of the speech chunks, is Trump bragging about the unemployment rate and how well the job market is doing. Topic 6, 10% as well,  is a little more choatic, but he is primarily talking about making China pay for the tariffs in his trade deal. Topic 7, which is 9% of the speeches, is primarily refering to his big campaign talking points, which are building a wall, make America great again, and promiting steel workers. Topic 9, 7% of the speeches, is refers mainly to various items in healthcare, like opoid abuse and drug innovation. Topic 10, 6% of the speech, is an appeal to family life, and also his attack on abortion. Topics 2, 4, 8 are also too noisy to draw any conclusions from. 
 ##### Figure V 
 
 ##### After the Midterm Election
