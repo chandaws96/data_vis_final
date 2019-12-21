@@ -1,0 +1,64 @@
+---
+title: "Interactive Plot Elections"
+author: "Chandler Dawson"
+date: "11/2/2019"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(plotly)
+library(png)
+
+#plotly credentials
+Sys.setenv("plotly_username"="")
+Sys.setenv("plotly_api_key"="")
+```
+
+
+
+```{r data, warning=FALSE}
+#Reading in the Data for the visualizations
+data1<- read.csv("C:/Users/Chandler Dawson/Dropbox/visturtdata.csv")
+
+#creating a data subset that has no spurious election results
+data2<- data1[data1$repc!=0&data1$demc!=0,]
+
+View(data2)
+```
+
+
+
+```{r add plot, warning=FALSE}
+
+
+l<- ggplot(data2, aes(x= demc, y=repc, color = endorsedtrump, frame=year)) +
+    geom_point(aes(alpha=.6, ids=code)) +
+    scale_color_manual(name = 'Party Affilation',values=c("Blue",'red4', "red"), labels= c('Democrat','Endorsed Trump','Republican'))+
+  labs(x = "Democratic Vote Count",
+       y= "Republican Vote Count",
+       title = "Vote Count by Congressional District 2014-2018") 
+
+# creating plot_ly object
+p <- ggplotly(l)
+
+p  
+  
+  
+```
+
+
+``` {r cleanplot, warning=FALSE}
+q <- p %>%
+      # these options set the frames at 1000 miliseconds, transition at 500 miliseconds, the animation style to curcle, no redrawing of the gif, and the mode of animation as after everything has           finished
+      animation_opts(1200, transition=900, easing = "circle", redraw=FALSE, mode = "afterall")
+
+#outputing results to the cloud
+api_create(q, filename = "r-elections-results")
+
+```
